@@ -1,0 +1,21 @@
+.root {}
+
+.menuButton {
+	background: none;
+	border: none;
+	color: #fff;
+}
+
+.headerActions {
+	display: flex;
+	flex-direction: row;
+}
+
+.collapsedActions {
+	display: flex;
+	flex-direction: column;
+}
+
+.action {
+	padding: 10px;
+}

@@ -1,0 +1,46 @@
+.root {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+.root.reverse {
+	flex-direction: row-reverse;
+}
+
+.leading, .trailing {
+	padding: 6px;
+	box-sizing: border-box;
+	height: 100%;
+	overflow: auto;
+}
+
+.leading {	
+	
+}
+
+.trailing {
+	flex: 1;
+}
+
+.divider {
+	width: 1px;
+	background-color: #adadad;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.thumb {
+	position: absolute;
+	width: 10px;
+	height: 48px;
+	background-color: #737373;
+	border-radius: 4px;
+	cursor: col-resize;
+}
+
+.thumb:hover {
+	background-color: #333;
+}
